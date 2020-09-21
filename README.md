@@ -1,5 +1,5 @@
 # COVID_DETECTION
-In this project binary classification and multi-class classification has been performed for detecting covid and normal x_ray scans. 
+In this project binary classification and multi-class classification has been performed for detecting covid,pneumonia and normal x_ray scans. 
 TOOLS/Libraries USED: Google Colab, Pytorch, Numpy, Matplotlib.
 
 ### Dataset Description
