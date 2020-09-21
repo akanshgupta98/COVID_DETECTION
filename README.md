@@ -38,3 +38,9 @@ and hence resulted in great Accuracy. TRAINING: 99% TESTING: 95 %. The detection
 for testing due to overfitting, hence working on it to fix and make it work. 
 
 In this project, the main learning was to deal with imbalanced data, and hence perform augmentation. 
+
+### Update(Fixed Issue of Overfitting):
+Now this project can classify successfully all 3 cases(COVID,NORMAL,PNEUMONIA) with an accuracy of 91% on test data. Confusion Matrix plotted verifies that the
+model is able to correctly classify most of the instances. The model as of now classifies 19 instances as not COVID. From 19, 2 are classified as Normal, and rest 17 cases are classified as Pneumonia instead of COVID. But this can be trained for longer time and maybe focusing on more data for Pneumonia and COVID datasets and can be made better. The architecture used for this is AlexNet using transfer learning and it works well showing an accuracy of 90% and 91% (test and train) in just 5 epochs. A custom architecture was also tried but the model could not learn well. 
+
+A web interface for this is also under development.
